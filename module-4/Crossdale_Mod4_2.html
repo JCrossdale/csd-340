@@ -1,0 +1,73 @@
+Jeffrey Crossdale 
+Assignment 4.2
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <link rel="stylesheet" href="Crossdale_Mod4_2.css">
+    
+    <style>
+        
+        h1 {
+            text-align: center;
+        }
+
+        #image-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); 
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .gallery-item {
+            text-align: center;
+            border: 1px solid #ccc; 
+            padding: 10px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <h1>Assignment 4.2: Build a Web Page Exercise - Part 4</h1>
+
+        <div id="image-gallery">
+            <div class="gallery-item">
+                <h3>Agnes Aubert's Mystical Cat Shelter</h3>
+                <figure>
+                    <img src="images/1.jpg" alt="Agnes Aubert's Mystical Cat Shelter">
+                    <figcaption>(Author: Heather Fawcett
+)</figcaption>
+                </figure>
+            </div>
+
+            <div class="gallery-item">
+                <h3>Graceless Heart</h3>
+                <figure>
+                    <img src="images/2.jpg" alt="Graceless Heart">
+                    <figcaption>(Author: Isabel Ibanez)</figcaption>
+                </figure>
+            </div>
+
+            <div class="gallery-item">
+                <h3>Red Winter</h3>
+                <figure>
+                    <img src="images/3.jpg" alt="Red Winter">
+                    <figcaption>(Author: Cameron Sullivan)</figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <br>
+        <a href="index.html">Back to Landing Page</a>
+    </div>
+
+</body>
+</html>
